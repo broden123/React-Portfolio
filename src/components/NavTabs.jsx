@@ -4,46 +4,51 @@ function NavTabs() {
   const currentPage = useLocation().pathname;
 
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs bg-danger fs-4 fw-semibold text-white d-flex justify-content-end">
+      <div className="me-auto p-2">Brayden Smith-Zimmerman</div>
       <li className="nav-item">
         <Link
           to="/"
-          className={currentPage === "/" ? "nav-link active" : "nav-link"}
+          className={
+            currentPage === "/"
+              ? "nav-link active text-dark"
+              : "nav-link text-white"
+          }
         >
-          Home
-        </Link>
-      </li>
-      <li className="nav-item">
-        <Link
-          to="/About"
-          className={currentPage === "/About" ? "nav-link active" : "nav-link"}
-        >
-          About
+          About Me
         </Link>
       </li>
       <li className="nav-item">
         <Link
           to="/Portfolio"
           className={
-            currentPage === "/Portfolio" ? "nav-link active" : "nav-link"
+            currentPage === "/Portfolio"
+              ? "nav-link active"
+              : "nav-link text-white"
           }
         >
-          Blog
+          Portfolio
         </Link>
       </li>
       <li className="nav-item">
         <Link
           to="/Resume"
-          className={currentPage === "/Resume" ? "nav-link active" : "nav-link"}
+          className={
+            currentPage === "/Resume"
+              ? "nav-link active"
+              : "nav-link text-white"
+          }
         >
-          Contact
+          Resume
         </Link>
       </li>
       <li className="nav-item">
         <Link
           to="/Contact"
           className={
-            currentPage === "/Contact" ? "nav-link active" : "nav-link"
+            currentPage === "/Contact"
+              ? "nav-link active"
+              : "nav-link text-white"
           }
         >
           Contact
