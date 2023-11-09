@@ -3,7 +3,7 @@ export default function Home() {
     <div className="text-center">
       <img 
 className="border border-dark shadow-lg img-fluid m-3 " 
-src='./src/assets/profilepic.jpg'  
+src='/profilepic.jpg'  
 alt="Brayden Smith-Zimmerman"
 width="400"/>
       <h1>About Me</h1>

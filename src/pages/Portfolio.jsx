@@ -7,7 +7,7 @@ export default function Portfolio() {
       <div className="flex-fill p-2 image-container">
         <a href="https://broden123.github.io/Brewer-Loc/">
           <img
-            src="./src/assets/brewlocpreview.png"
+            src="/brewlocpreview.png"
             className="img-fluid image"
             alt="Picture of Brewery Locator application"
           />
@@ -21,7 +21,7 @@ export default function Portfolio() {
       <div className="flex-fill p-2 image-container">
         <a href="https://note-taker-35-e6604a508493.herokuapp.com/notes">
           <img
-            src="./src/assets/notetakerpreview.png"
+            src="/notetakerpreview.png"
             className="img-fluid image"
             alt="Picture of Note-Taker application"
           />
@@ -34,7 +34,7 @@ export default function Portfolio() {
       <div className="flex-fill p-2 image-container">
         <a href="https://vast-meadow-71566-a5568f84ff53.herokuapp.com/">
           <img
-            src="./src/assets/jatepreview.png"
+            src="/jatepreview.png"
             className="img-fluid image"
             alt="Picture of J.A.T.E application"
           />
@@ -47,7 +47,7 @@ export default function Portfolio() {
       <div className="flex-fill p-2 image-container">
         <a href="https://broden123.github.io/passwordgenerator/">
           <img
-            src="./src/assets/passwordgeneratorpreview.png"
+            src="/passwordgeneratorpreview.png"
             className="img-fluid image"
             alt="Picture of password generator application"
           />
@@ -60,7 +60,7 @@ export default function Portfolio() {
       <div className="flex-fill p-2 image-container">
         <a href="https://broden123.github.io/dailyplanner/">
           <img
-            src="./src/assets/dailyplannerpreview.png"
+            src="/dailyplannerpreview.png"
             className="img-fluid image"
             alt="Picture of Work Day Scheduler application"
           />
@@ -72,7 +72,7 @@ export default function Portfolio() {
       <div className="flex-fill p-2 image-container">
         <a href="https://broden123.github.io/portfolio/">
           <img
-            src="./src/assets/originalportfoliopreview.png"
+            src="/originalportfoliopreview.png"
             className="img-fluid image"
             alt="Picture of my original portfolio"
           />

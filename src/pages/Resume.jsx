@@ -14,18 +14,15 @@ export default function Resume() {
   }
   function downloadDocument() {
     const link = document.createElement("a");
-    link.href = "./src/assets/resume.pdf";
-    link.download = "./src/assets/resume.pdf";
+    link.href = "/resume.pdf";
+    link.download = "/resume.pdf";
     link.click();
   }
 
   return (
     <div>
       <div className="d-flex justify-content-center align-items-center">
-        <Document
-          file="./src/assets/resume.pdf"
-          onLoadSuccess={onDocumentLoadSuccess}
-        >
+        <Document file="/resume.pdf" onLoadSuccess={onDocumentLoadSuccess}>
           <Page pageNumber={pageNumber} />
         </Document>
       </div>
